@@ -31,24 +31,31 @@ format:
 - Define the Problem: A control group might be present but there is some confounding variable present that impacts the variable being studied.
 - " It is also important that the control and experimental groups are sampled at the same time and with randomised allocation, to minimise any biases."
 - The control and experimental group should be identical (or at least close to identical) in every way except the variable of interest
-- Why is it a problem: In order to make a claim about the effectiveness of some treatment/intervention/variable, there needs to be an adequate base line to compare it to
+- In order to make a claim about the effectiveness of some treatment/intervention/variable, there needs to be an adequate base line to 
+compare it to
 - How to Spot it: Either there is no control group that is being compared to, or there is a control group but key features are not accounted for
 - How to fix it: "If the experimental design does not allow for separating the effect of time from the effect of the intervention, then conclusions regarding the
  impact of the intervention should be presented as tentative"
 
 ##  Interpreting comparisons between two effects without directly comparing them
 
-- Define the Problem
-- Why is it a problem
-- How to Spot it
-- How to fix it
+- Define the Problem: When a difference occurs between the experimental and control group, the researchers will just assume that there is a significant difference without directly comparing the results
+- " One can only conclude that the effect of an intervention is different from the effect of a control intervention through a direct statistical comparison between the two effects. Therefore, rather than running two separate tests, it is essential to use one statistical test to compare the two effects."
+- Why is it a problem: See Erroneous analyses of interactions in neuroscience: a problem of significance (https://www.nature.com/articles/nn.2886)
+- How to Spot it: There is a conclusion without directly comparing the two results
+- How to fix it: Perform the approriate statistical analysis/test
 
 ##  Inflating the units of analysis
 
-- Define the Problem
-- Why is it a problem
-- How to Spot it
-- How to fix it
+- Researchers sometimes mix up the number of subjects tested and the number of observations made overall (multiple can be made for each subject)
+- Define the Problem: 
+- Why is it a problem: this increases the degrees of freedom and therefore decreases the critical statistical threashold. This can result in results being interpreted as significant when that might not be the case. 
+- How to Spot it: " If a study aims to understand group effects, then the unit of analysis should reflect the variance across subjects, not 
+within subjects."
+- How to fix it: Mixed-effects linear model or " calculate the correlation for each observation separately (e.g. pre, post) and
+ interpret the R values based on the existing df. The researchers can also average the values across observations, or calculate the correlation
+ for pre/post separately and then average the resulting R values (after applying normalisation of the R distribution, e.g. r-to-Z transformation),
+ and interpret them accordingly."
 
 ## Spurious correlations
 
@@ -106,6 +113,10 @@ format:
 ## Summary
 
 This presentation has covered:
+
+- The ten most common statistical mistakes made in manuscripts
+- How reviewers can spot each mistake
+- How researchers can fix each mistake
 
 ## Further Reading
 
