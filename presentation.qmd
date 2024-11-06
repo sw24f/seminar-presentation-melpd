@@ -1,6 +1,6 @@
 ---
 title: " Ten common statistical mistakes to watch out for when writing or reviewing a manuscript"
-subtitle: "by  Tamar R Makin ANDJEAN-JACQUES ORBAN DEXIVRY"
+subtitle: "by Tamar R Makin Andjean-Jacques Orban Dexivry"
 format:
     revealjs:
         slide-number: true
@@ -12,9 +12,17 @@ format:
 
 ##  Tamar R Makin
 
+- Tamar R Makin is a neuroscientist
+- She is currently a professor of Cognitive Neuroscience at the University of Cambridge
+
 ## Andjean-Jacques Orban Dexivry
 
+- Andjean-Jacques Orban Dexivry is an assistant professor at KU Leuven (a university in Belgium)
+
 ## The Inspiration for the Paper
+
+- Since both of the authors are neuroscientists, the paper was primarily inspired by mistakes made in neuroscience papers/journals
+- These mistakes are due to flawed experimental design, inappropriate analyses, or improper interpretation of results
 
 # Ten Most Common Statistical Mistakes 
 
