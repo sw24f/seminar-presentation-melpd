@@ -28,10 +28,13 @@ format:
 
 ## Absence of an adequate control condition/group
 
-- Define the Problem
-- Why is it a problem
-- How to Spot it
-- How to fix it
+- Define the Problem: A control group might be present but there is some confounding variable present that impacts the variable being studied.
+- " It is also important that the control and experimental groups are sampled at the same time and with randomised allocation, to minimise any biases."
+- The control and experimental group should be identical (or at least close to identical) in every way except the variable of interest
+- Why is it a problem: In order to make a claim about the effectiveness of some treatment/intervention/variable, there needs to be an adequate base line to compare it to
+- How to Spot it: Either there is no control group that is being compared to, or there is a control group but key features are not accounted for
+- How to fix it: "If the experimental design does not allow for separating the effect of time from the effect of the intervention, then conclusions regarding the
+ impact of the intervention should be presented as tentative"
 
 ##  Interpreting comparisons between two effects without directly comparing them
 
