@@ -59,10 +59,13 @@ within subjects."
 
 ## Spurious correlations
 
+- Spurious correlations are when two variables have some sort of correlation but one variable does not directly cause the other
+- Spurious correlations can arise from outliers or clusters
+- Outliers should not just be discarded if they are valid observations. Consider using different statistical tools
 - Define the Problem
 - Why is it a problem
-- How to Spot it
-- How to fix it
+- How to Spot it: Take note of correlations that are reported without scatterplots or outliers that were thrown out without justification
+- How to fix it: Consider using more robust correlation methods such as bootstrapping (resampling with replacement), data winsorizing (set outliers to a certain percentile), or skipped correlations (calculate correlations after removing outliers). If using parametric statistics, always consider assumption violations.
 
 ## Use of small samples
 
