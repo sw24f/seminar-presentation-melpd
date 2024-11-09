@@ -98,24 +98,33 @@ analysis  and for testing your predictions", pre-define the analysis criteria
 
 ## Failing to correct for multiple comparisons
 
-- Define the Problem
-- Why is it a problem
-- How to Spot it
-- How to fix it
+- Define the Problem: When testing a set of hypothesis, as the number of hypoteses tested increases, so do the chances of seeing a 
+false positive (family-wise error rate). The more variables tested, the greater the chances of seeing a signifacant correlation with 
+the dependent variable simply by chance
+- Why is it a problem: increases the chance of type 1 error (false positive)
+- How to Spot it: " Failing to correct for multiple comparisons can be detected by addressing the number of independent variables 
+measured and the number of analyses performed. If only one of these variables correlated with the dependent variable, then the rest 
+is likely to have been included to increase the chance of obtaining a significant result"
+- How to fix it: " Exploratory testing can be absolutely appropriate, but should be acknowledged. Researchers
+ should disclose all measured variables and properly implement the use of multiple comparison procedures. "
 
 ## Over-interpreting non-significant results
-
-- Define the Problem
-- Why is it a problem
-- How to Spot it
-- How to fix it
+- " In simple words- non-significant effects could literally mean very different things- a true null result, an underpowered 
+genuine effect, or an ambiguous effect "
+- Define the Problem: Researchers may sometimes use rejecting the null hypothesis as evidence to support their ideas
+- Why is it a problem: Just because you fail to reject the null hypothesis does not mean that the null hypothesis is true
+- How to Spot it: Describing a non-significant p-value as indicating that an effect was not present
+- How to fix it: "report effect sizes together with p-values in order to provide information about the magnitude of the effect"
+- If applicable, use alternative statsitical methods such as Bayesian statistics or equivalence tests
 
 ## Correlation and causation
 
-- Define the Problem
-- Why is it a problem
-- How to Spot it
-- How to fix it
+- Define the Problem: Determining that because two variables are correlated, one must cause the other
+- Why is it a problem: Just because there is correlation, does not mean there is causation
+- There may be other variables at play or it may just be a coincidence
+- How to Spot it: " Researchers should only use causal language when a variable is precisely manipulated and even then, they should 
+be cautious about the role of third variables or confounding factors."
+- How to fix it: Look out for possible confounding varaiables
 
 # Conclusion
 
