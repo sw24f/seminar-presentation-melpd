@@ -88,11 +88,12 @@ biased or misleading results.
 analysis  and for testing your predictions", pre-define the analysis criteria
 
 ## Flexibility of analysis: p-hacking
-
-- Define the Problem
-- Why is it a problem
-- How to Spot it
-- How to fix it
+- " But perhaps the best way to prevent p-hacking is to show some tolerance to borderline or non-significant results. In other words, if the
+ experiment is well designed, executed, and analysed, reviewers should not ’punish’ the researchers for their data."
+- Define the Problem: P-hacking is when there is manipulation done to the data anlysis process in order to obtain desired reults
+- Why is it a problem: False positives
+- How to Spot it: it is harded to spot. Sometimes it can be detected if there is a difference between the pre-planned analysis and the actual analysis.
+- How to fix it: " Researchers should be transparent in the reporting of the results"
 
 
 ## Failing to correct for multiple comparisons
