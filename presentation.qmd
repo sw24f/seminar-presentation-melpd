@@ -69,18 +69,23 @@ within subjects."
 
 ## Use of small samples
 
-- Define the Problem
-- Why is it a problem
-- How to Spot it
-- How to fix it
+- Define the Problem: " When a sample size is small, one can only detect large effects, thereby leaving high uncertainty
+ around the estimate of the true effect size and leading to an overestimation of the actual effect size"
+- Why is it a problem: Small sample sizes are more susceptible to missing an effect that exists in the data (Type 2 error)
+- How to Spot it: Be mindful of large claims based on small sample sizes
+- How to fix it: If you have to use a small sample size, "efforts should be made to provide replications (both within and between
+ cases) and to include sufficient controls"
 
 
 ##   Circular analysis
 
-- Define the Problem
+- Define the Problem: Circular analysis happens when you use the same data to define or select something and then test or measure that 
+same thing. This creates a "circle" because you're using the data both to set up the analysis and to draw conclusions, which leads to 
+biased or misleading results.
 - Why is it a problem
-- How to Spot it
-- How to fix it
+- How to Spot it: There should be a justification to prove that the selected critieria and the area of interest are independent variables
+- How to fix it: use bootstrapping, "use a different dataset (or different part of your dataset) for specifying the parameters for the 
+analysis  and for testing your predictions", pre-define the analysis criteria
 
 ## Flexibility of analysis: p-hacking
 
