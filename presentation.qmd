@@ -12,7 +12,7 @@ format:
 
 ##  About the Authors
 
-Tamar R Makin (she/her)
+Tamar R Makin
 
 - Neuroscientist studying brain plasticity (how the brain reorganizes itself)
 - She is currently a professor at the University of Cambridge teaching cognitive neuroscience 
@@ -36,14 +36,25 @@ since one can impact the other
 
 ## Absence of an adequate control condition/group
 
-- Define the Problem: A control group might be present but there is some confounding variable present that impacts the variable being studied.
-- " It is also important that the control and experimental groups are sampled at the same time and with randomised allocation, to minimise any biases."
-- The control and experimental group should be identical (or at least close to identical) in every way except the variable of interest
-- In order to make a claim about the effectiveness of some treatment/intervention/variable, there needs to be an adequate base line to 
-compare it to
-- How to Spot it: Either there is no control group that is being compared to, or there is a control group but key features are not accounted for
-- How to fix it: "If the experimental design does not allow for separating the effect of time from the effect of the intervention, then conclusions regarding the
- impact of the intervention should be presented as tentative"
+The Problem
+
+- Changes in the effect can occur due to outside variables
+- In cases where an effect is being studied over time, it is important to have a control group to compare the results to in order to have a baseline
+- Sometimes, there either isn’t a control group or there is some bias introduced into the control group that makes the control group inadequate
+- The control and experimental group should be as similar as possible, the only difference being the variable that is being manipulated
+
+## Absence of an adequate control condition/group
+
+Reviewers should look out for:
+
+- Absence of control group
+- Conclusions being drawn without being compared to the control group
+- Not accounting for factors that may impact the control group
+
+Solutions for researchers: 
+
+- If you cannot separate the effects of time, then the results should be considered tentative
+
 
 ##  Interpreting comparisons between two effects without directly comparing them
 
