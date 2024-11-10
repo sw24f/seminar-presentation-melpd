@@ -91,7 +91,8 @@ determines the degrees of freedom used
 - A common mistake is when doing group analysis, the experimental unit is determined to 
 be the number of observations made within each subject (this is incorrect), rather than 
 the number of subjects (this is the correct unit)
-- By not clearly defining and using the correct units of analysis, this can increase the degrees of freedom and therefore increase the statistical power. Thus, it is easier to observe falsely significant results
+- By not clearly defining and using the correct units of analysis, this can increase the degrees of freedom and therefore 
+increase the statistical power. Thus, it is easier to observe falsely significant results
 
 ##  Inflating the units of analysis
 
@@ -169,7 +170,7 @@ or misleading results.
 Reviewers should look out for:
 
 - Data that was selected because it showed the effect of interest
-- If an effect size (such as a correlation or a difference between groups) is much larger than what is theoretically or practically plausible (for example, finding a very high correlation between two variables that are known to have only a weak or moderate relationship in previous studies might be suspicious)
+- An effect size (such as a correlation or a difference between groups) is much larger than what is theoretically or practically plausible 
 
 For researchers: 
 
@@ -201,33 +202,67 @@ For researchers:
 
 ## Failing to correct for multiple comparisons
 
-- Define the Problem: When testing a set of hypothesis, as the number of hypoteses tested increases, so do the chances of seeing a 
-false positive (family-wise error rate). The more variables tested, the greater the chances of seeing a signifacant correlation with 
-the dependent variable simply by chance
-- Why is it a problem: increases the chance of type 1 error (false positive)
-- How to Spot it: " Failing to correct for multiple comparisons can be detected by addressing the number of independent variables 
-measured and the number of analyses performed. If only one of these variables correlated with the dependent variable, then the rest 
-is likely to have been included to increase the chance of obtaining a significant result"
-- How to fix it: " Exploratory testing can be absolutely appropriate, but should be acknowledged. Researchers
- should disclose all measured variables and properly implement the use of multiple comparison procedures. "
+The Problem
+
+- When testing a set of hypotheses, as the number of hypotheses tested increases, so do the chances of seeing a false positive.
+- The more variables tested, the greater the chances of seeing a significant correlation with the dependent variable simply by chance
+
+## Failing to correct for multiple comparisons
+
+Reviewers should look out for:
+
+- Compare the number of independent variables and the number of analyses performed. If many variables that are included 
+do not correlate with the dependent variable, there is likely a multiple comparisons issue.
+- Researchers should not interpret results from exploratory analyses without applying corrections for multiple comparisons, 
+unless there is a clear justification for not doing so.
+
+For researchers:
+
+- Researchers should be transparent about the exploratory nature of their analysis and disclose all measured variables.
+- Different methods exist for this correction, and it's crucial to use well-accepted ones to avoid inaccurate findings 
+
 
 ## Over-interpreting non-significant results
-- " In simple words- non-significant effects could literally mean very different things- a true null result, an underpowered 
-genuine effect, or an ambiguous effect "
-- Define the Problem: 
-- Why is it a problem: Just because you fail to reject the null hypothesis does not mean that the null hypothesis is true
-- How to Spot it: Describing a non-significant p-value as indicating that an effect was not present
-- How to fix it: "report effect sizes together with p-values in order to provide information about the magnitude of the effect"
-- If applicable, use alternative statsitical methods such as Bayesian statistics or equivalence tests
+
+The Problem
+
+- Researchers may try to use the fact that a result is deemed non-significant means that there is no effect
+- Non-significant results can be due to small effects, an underpowered study (such as from a small sample size), etc.
+- Absence of evidence is not evidence of absence
+
+## Over-interpreting non-significant results
+
+Reviewers should look out for:
+
+- Describing a non-significant p-value as indicating that an effect was not present
+
+For Researchers:
+
+- Report the effect size along with the p-value. This allows readers and reviewers to understand not only if there is an effect, 
+but to what extent there is an effect. Examples of reporting effect size are Cohen’s d, Odds ratio, or Pearson’s correlation coefficient
+- Always be mindful of how you interpret non-significant results. Just because you fail to reject the null hypothesis 
+does not mean that the null hypothesis is true
+
 
 ## Correlation and causation
 
-- Define the Problem: Determining that because two variables are correlated, one must cause the other
-- Why is it a problem: Just because there is correlation, does not mean there is causation
-- There may be other variables at play or it may just be a coincidence
-- How to Spot it: " Researchers should only use causal language when a variable is precisely manipulated and even then, they should 
-be cautious about the role of third variables or confounding factors."
-- How to fix it: Look out for possible confounding varaiables
+The Problem
+
+- When the correlation is calculated between variables, some may assume this means that one directly causes the other
+- Correlation does mean not causation. There may be other variables at play or it may just be a coincidence
+
+## Correlation and causation
+
+Reviewers should look out for:
+
+- Using correlation as evidence of causation
+
+For Researchers: 
+
+- Causation should only be determined from a direct manipulation of one variable causing a change in the other - 
+and even then there should be caution
+- Always consider other confounding variables that may impact two variables correlation
+
 
 # Conclusion
 
