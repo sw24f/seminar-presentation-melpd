@@ -108,22 +108,53 @@ For Researchers:
 
 ## Spurious correlations
 
-- Spurious correlations are when two variables have some sort of correlation but one variable does not directly cause the other
-- Spurious correlations can arise from outliers or clusters
-- Outliers should not just be discarded if they are valid observations. Consider using different statistical tools
-- Define the Problem
-- Why is it a problem
-- How to Spot it: Take note of correlations that are reported without scatterplots or outliers that were thrown out without justification
-- How to fix it: Consider using more robust correlation methods such as bootstrapping (resampling with replacement), data winsorizing (set outliers to a certain percentile), or skipped correlations (calculate correlations after removing outliers). If using parametric statistics, always consider assumption violations.
+The Problem
+
+- Correlation is an important tool that can help to understand the relationship between two variables
+- In parametric correlation, Pearson’s correlation coefficient comes with a set of assumptions: normality, 
+linearity, pairs of values, continuity, and no outliers
+- Spurious correlation is when a relationship is detected that is not causal. This can often occur when there 
+is a violation of one of the assumptions, the most common being the presence of outliers
+- Outliers that did not occur by mistake should not simply be discarded. Instead, try another statistical approach
+
+## Spurious correlations
+
+Reviewers should look out for:
+
+- Correlations being reported without a scatter plot
+- Outliers that have been removed without justification
+
+For Researchers:
+
+- Try using alternative correlation metrics such as bootstrapping (resampling with replacement), data winsorizing 
+(set outliers to a certain percentile), or skipped correlations (calculate correlations after removing outliers). 
+- If using parametric statistics, always consider assumption violations.
+
 
 ## Use of small samples
 
-- Define the Problem: " When a sample size is small, one can only detect large effects, thereby leaving high uncertainty
- around the estimate of the true effect size and leading to an overestimation of the actual effect size"
-- Why is it a problem: Small sample sizes are more susceptible to missing an effect that exists in the data (Type 2 error)
-- How to Spot it: Be mindful of large claims based on small sample sizes
-- How to fix it: If you have to use a small sample size, "efforts should be made to provide replications (both within and between
- cases) and to include sufficient controls"
+The Problem
+
+- With small sample sizes, it’s easier to detect only large effects, which creates a lot of uncertainty around the 
+actual strength of the relationship between variables
+- With small samples, false positives can appear large, leading to what’s called the "significance fallacy": the 
+mistaken belief that a large effect in a small sample is definitely real. 
+- In reality, a larger correlation in small samples isn’t due to a stronger relationship; it’s just an overestimate 
+due to the small sample size
+- Small sample sizes can also make it difficult to test for normality
+
+## Use of small samples
+
+Reviewers should look out for:
+
+- Strong claims made using a small sample size
+- It is the reviewers discretion on whether or no the sample size is too small
+
+For Researchers:
+
+- Provide evidence that the sample size is reasonable through performing a statistical power analysis or through replicating the study
+- If the sample size is limited, use Crawford t-test (for case studies), perform replications of the study, try to 
+add in controls to isolate the effect of the primary factor being studied
 
 
 ##   Circular analysis
