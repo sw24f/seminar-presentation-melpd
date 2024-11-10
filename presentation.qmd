@@ -10,19 +10,27 @@ format:
 
 #  About the Paper and it's Authors
 
-##  Tamar R Makin
+##  About the Authors
 
-- Tamar R Makin is a neuroscientist
-- She is currently a professor of Cognitive Neuroscience at the University of Cambridge
+Tamar R Makin (she/her)
 
-## Andjean-Jacques Orban Dexivry
+- Neuroscientist studying brain plasticity (how the brain reorganizes itself)
+- She is currently a professor at the University of Cambridge teaching cognitive neuroscience 
 
-- Andjean-Jacques Orban Dexivry is an assistant professor at KU Leuven (a university in Belgium)
+Andjean-Jacques Orban Dexivry
+
+- Also a Neuroscientist studying movement control
+- He is a professor in the Movement Control & Neuroplasticity research group of KU Leuven 
 
 ## The Inspiration for the Paper
 
-- Since both of the authors are neuroscientists, the paper was primarily inspired by mistakes made in neuroscience papers/journals
-- These mistakes are due to flawed experimental design, inappropriate analyses, or improper interpretation of results
+- While the list was inspired by issues seen in neuroscience journals, the authors argue that this can 
+be applied to any field of science
+- There are 10 mistakes and for each, the authors provide an explanation of the problem, how reviewers 
+can identify the problem, and how researchers can solve the problem
+- There tends to be some overlap in the mistakes so it important to be aware of all these mistakes 
+since one can impact the other
+
 
 # Ten Most Common Statistical Mistakes 
 
@@ -111,7 +119,7 @@ is likely to have been included to increase the chance of obtaining a significan
 ## Over-interpreting non-significant results
 - " In simple words- non-significant effects could literally mean very different things- a true null result, an underpowered 
 genuine effect, or an ambiguous effect "
-- Define the Problem: Researchers may sometimes use rejecting the null hypothesis as evidence to support their ideas
+- Define the Problem: 
 - Why is it a problem: Just because you fail to reject the null hypothesis does not mean that the null hypothesis is true
 - How to Spot it: Describing a non-significant p-value as indicating that an effect was not present
 - How to fix it: "report effect sizes together with p-values in order to provide information about the magnitude of the effect"
