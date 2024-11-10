@@ -38,10 +38,12 @@ since one can impact the other
 
 The Problem
 
-- Changes in the effect can occur due to outside variables
-- In cases where an effect is being studied over time, it is important to have a control group to compare the results to in order to have a baseline
-- Sometimes, there either isn’t a control group or there is some bias introduced into the control group that makes the control group inadequate
-- The control and experimental group should be as similar as possible, the only difference being the variable that is being manipulated
+- In cases where an effect is being studied over time, it is important to have a control group to 
+compare the results to in order to have a baseline
+- Sometimes, there either isn’t a control group or there is some bias introduced into the control 
+group that makes the control group inadequate
+- The control and experimental group should be as similar as possible, the only difference being 
+the variable that is being manipulated
 
 ## Absence of an adequate control condition/group
 
@@ -58,23 +60,51 @@ Solutions for researchers:
 
 ##  Interpreting comparisons between two effects without directly comparing them
 
-- Define the Problem: When a difference occurs between the experimental and control group, the researchers will just assume that there is a significant difference without directly comparing the results
-- " One can only conclude that the effect of an intervention is different from the effect of a control intervention through a direct statistical comparison between the two effects. Therefore, rather than running two separate tests, it is essential to use one statistical test to compare the two effects."
-- Why is it a problem: See Erroneous analyses of interactions in neuroscience: a problem of significance (https://www.nature.com/articles/nn.2886)
-- How to Spot it: There is a conclusion without directly comparing the two results
-- How to fix it: Perform the approriate statistical analysis/test
+The problem
+
+- Researchers tend to determine the effect of some treatment/intervention by comparing the results 
+of the experimental group to the control group to see if there was a significant difference
+- The problem is when researchers conclude results based on the fact that the experimental group has 
+significant results while the control group does not
+- You cannot draw conclusions based on the fact that one group has statistically significant results 
+and the other does not. They need to be directly compared to each other in one statistical test
+
+##  Interpreting comparisons between two effects without directly comparing them
+
+Reviewers should look out for:
+
+- Conclusions are drawn without statistically comparing the two effects
+
+For Researchers: 
+
+- Compare groups directly
+- Correlations between two groups can use Monte Carlo simulation
+- When doing group comparisons, use ANOVA
+
 
 ##  Inflating the units of analysis
 
-- Researchers sometimes mix up the number of subjects tested and the number of observations made overall (multiple can be made for each subject)
-- Define the Problem: 
-- Why is it a problem: this increases the degrees of freedom and therefore decreases the critical statistical threashold. This can result in results being interpreted as significant when that might not be the case. 
-- How to Spot it: " If a study aims to understand group effects, then the unit of analysis should reflect the variance across subjects, not 
-within subjects."
-- How to fix it: Mixed-effects linear model or " calculate the correlation for each observation separately (e.g. pre, post) and
- interpret the R values based on the existing df. The researchers can also average the values across observations, or calculate the correlation
- for pre/post separately and then average the resulting R values (after applying normalisation of the R distribution, e.g. r-to-Z transformation),
- and interpret them accordingly."
+The Problem
+
+- The experimental units used in analysis is important to be clearly defined because it 
+determines the degrees of freedom used 
+- A common mistake is when doing group analysis, the experimental unit is determined to 
+be the number of observations made within each subject (this is incorrect), rather than 
+the number of subjects (this is the correct unit)
+- By not clearly defining and using the correct units of analysis, this can increase the degrees of freedom and therefore increase the statistical power. Thus, it is easier to observe falsely significant results
+
+##  Inflating the units of analysis
+
+Reviewers should look out for: 
+
+- Experimental units that do not match the number of participants in the study
+
+For Researchers:
+
+- Consider using a mixed-effects linear model
+- Calculate correlations for each observation separately
+- Average values across observations
+- Calculate correlations separately for pre and post, then average the resulting R values
 
 ## Spurious correlations
 
