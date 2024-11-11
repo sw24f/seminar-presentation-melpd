@@ -49,7 +49,6 @@ the variable that is being manipulated
 
 Reviewers should look out for:
 
-- Absence of control group
 - Conclusions being drawn without being compared to the control group
 - Not accounting for factors that may impact the control group
 
@@ -66,8 +65,7 @@ The problem
 of the experimental group to the control group to see if there was a significant difference
 - The problem is when researchers conclude results based on the fact that the experimental group has 
 significant results while the control group does not
-- You cannot draw conclusions based on the fact that one group has statistically significant results 
-and the other does not. They need to be directly compared to each other in one statistical test
+- The two groups need to be directly compared to each other in one statistical test
 
 ##  Interpreting comparisons between two effects without directly comparing them
 
@@ -75,11 +73,9 @@ Reviewers should look out for:
 
 - Conclusions are drawn without statistically comparing the two effects
 
-For Researchers: 
+Solutions For Researchers: 
 
-- Compare groups directly
-- Correlations between two groups can use Monte Carlo simulation
-- When doing group comparisons, use ANOVA
+- Compare groups directly (for example, Correlations between two groups can use Monte Carlo simulation or When doing group comparisons, use ANOVA)
 
 
 ##  Inflating the units of analysis
@@ -91,8 +87,8 @@ determines the degrees of freedom used
 - A common mistake is when doing group analysis, the experimental unit is determined to 
 be the number of observations made within each subject (this is incorrect), rather than 
 the number of subjects (this is the correct unit)
-- By not clearly defining and using the correct units of analysis, this can increase the degrees of freedom and therefore 
-increase the statistical power. Thus, it is easier to observe falsely significant results
+- This can increase the degrees of freedom and therefore increase the statistical power. Thus, it is easier to 
+observe falsely significant results
 
 ##  Inflating the units of analysis
 
@@ -100,7 +96,7 @@ Reviewers should look out for:
 
 - Experimental units that do not match the number of participants in the study
 
-For Researchers:
+Solutions For Researchers:
 
 - Consider using a mixed-effects linear model
 - Calculate correlations for each observation separately
@@ -111,7 +107,6 @@ For Researchers:
 
 The Problem
 
-- Correlation is an important tool that can help to understand the relationship between two variables
 - In parametric correlation, Pearson’s correlation coefficient comes with a set of assumptions: normality, 
 linearity, pairs of values, continuity, and no outliers
 - Spurious correlation is when a relationship is detected that is not causal. This can often occur when there 
@@ -125,7 +120,7 @@ Reviewers should look out for:
 - Correlations being reported without a scatter plot
 - Outliers that have been removed without justification
 
-For Researchers:
+Solutions For Researchers:
 
 - Try using alternative correlation metrics such as bootstrapping (resampling with replacement), data winsorizing 
 (set outliers to a certain percentile), or skipped correlations (calculate correlations after removing outliers). 
@@ -141,7 +136,6 @@ actual strength of the relationship between variables
 - With small samples, false positives can appear large, leading to what’s called the "significance fallacy": the 
 mistaken belief that a large effect in a small sample is definitely real. 
 - In reality, a larger correlation in small samples isn’t due to a stronger relationship; it’s just an overestimate 
-due to the small sample size
 - Small sample sizes can also make it difficult to test for normality
 
 ## Use of small samples
@@ -151,10 +145,10 @@ Reviewers should look out for:
 - Strong claims made using a small sample size
 - It is the reviewers discretion on whether or no the sample size is too small
 
-For Researchers:
+Solutions For Researchers:
 
 - Provide evidence that the sample size is reasonable through performing a statistical power analysis or through replicating the study
-- If the sample size is limited, use Crawford t-test (for case studies) or try to add in controls to isolate the effect of the 
+- If the sample size is limited, use Crawford t-test or try to add in controls to isolate the effect of the 
 primary factor being studied
 
 
@@ -172,7 +166,7 @@ Reviewers should look out for:
 - Data that was selected because it showed the effect of interest
 - An effect size (such as a correlation or a difference between groups) is much larger than what is theoretically or practically plausible 
 
-For researchers: 
+Solutions For researchers: 
 
 - Before looking at the data, decide the analysis criteria to avoid introducing bias
 - Use a different dataset to test your predictions
@@ -193,7 +187,7 @@ Reviewers should look out for:
 - If a large bulk of variables were taken but only a few statistically significant ones were reported
 - If the analysis plan is predetermined before testing and if that plan was followed
 
-For researchers:
+Solutions For researchers:
 
 - Avoid changing hypothesis before testing
 - Be transparent
@@ -207,15 +201,14 @@ The Problem
 - When testing a set of hypotheses, as the number of hypotheses tested increases, so do the chances of seeing a false positive.
 - The more variables tested, the greater the chances of seeing a significant correlation with the dependent variable simply by chance
 
-## Failing to correct for multiple comparisons
+## Multiple comparisons
 
 Reviewers should look out for:
 
 - If many variables that are included do not correlate with the dependent variable, there is likely a multiple comparisons issue.
-- Researchers should not interpret results from exploratory analyses without applying corrections for multiple comparisons, 
-unless there is a clear justification for not doing so.
+- Researchers should not interpret results from exploratory analyses without applying corrections for multiple comparisons.
 
-For researchers:
+Solutions For researchers:
 
 - Researchers should be transparent about the exploratory nature of their analysis and disclose all measured variables.
 - Different methods exist for this correction, and it's crucial to use well-accepted ones to avoid inaccurate findings 
@@ -227,6 +220,7 @@ The Problem
 
 - Researchers may try to use the fact that a result is deemed non-significant means that there is no effect
 - Non-significant results can be due to small effects, an underpowered study (such as from a small sample size), etc.
+- Just because you fail to reject the null hypothesis does not mean that the null hypothesis is true
 - Absence of evidence is not evidence of absence
 
 ## Over-interpreting non-significant results
@@ -235,12 +229,11 @@ Reviewers should look out for:
 
 - Describing a non-significant p-value as indicating that an effect was not present
 
-For Researchers:
+Solutions For Researchers:
 
 - Report the effect size along with the p-value. This allows readers and reviewers to understand not only if there is an effect, 
 but to what extent there is an effect.
-- Always be mindful of how you interpret non-significant results. Just because you fail to reject the null hypothesis 
-does not mean that the null hypothesis is true
+- Always be mindful of how you interpret non-significant results.
 
 
 ## Correlation and causation
@@ -256,7 +249,7 @@ Reviewers should look out for:
 
 - Using correlation as evidence of causation
 
-For Researchers: 
+Solutions For Researchers: 
 
 - Causation should only be determined from a direct manipulation of one variable causing a change in the other - 
 and even then there should be caution
@@ -272,9 +265,5 @@ This presentation has covered:
 - The ten most common statistical mistakes made in manuscripts
 - How reviewers can spot each mistake
 - How researchers can fix each mistake
-
-## Further Reading
-
-
 
 # THANK YOU!!!
