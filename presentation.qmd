@@ -1,6 +1,6 @@
 ---
 title: " Ten common statistical mistakes to watch out for when writing or reviewing a manuscript"
-subtitle: "by Tamar R Makin Andjean-Jacques Orban Dexivry"
+subtitle: "by Tamar R Makin Andjean-Jacques Orban Dexivry | Presented by Melanie Desroches"
 format:
     revealjs:
         slide-number: true
@@ -211,8 +211,7 @@ The Problem
 
 Reviewers should look out for:
 
-- Compare the number of independent variables and the number of analyses performed. If many variables that are included 
-do not correlate with the dependent variable, there is likely a multiple comparisons issue.
+- If many variables that are included do not correlate with the dependent variable, there is likely a multiple comparisons issue.
 - Researchers should not interpret results from exploratory analyses without applying corrections for multiple comparisons, 
 unless there is a clear justification for not doing so.
 
@@ -239,7 +238,7 @@ Reviewers should look out for:
 For Researchers:
 
 - Report the effect size along with the p-value. This allows readers and reviewers to understand not only if there is an effect, 
-but to what extent there is an effect. Examples of reporting effect size are Cohen’s d, Odds ratio, or Pearson’s correlation coefficient
+but to what extent there is an effect.
 - Always be mindful of how you interpret non-significant results. Just because you fail to reject the null hypothesis 
 does not mean that the null hypothesis is true
 
