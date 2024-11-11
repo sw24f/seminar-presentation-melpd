@@ -1,6 +1,6 @@
 ---
 title: " Ten common statistical mistakes to watch out for when writing or reviewing a manuscript"
-subtitle: "by Tamar R Makin Andjean-Jacques Orban Dexivry | Presented by Melanie Desroches"
+subtitle: "by Tamar R Makin and Jean-Jacques Orban de Xivry | Presented by Melanie Desroches"
 format:
     revealjs:
         slide-number: true
@@ -17,7 +17,7 @@ Tamar R Makin
 - Neuroscientist studying brain plasticity (how the brain reorganizes itself)
 - She is currently a professor at the University of Cambridge teaching cognitive neuroscience 
 
-Andjean-Jacques Orban Dexivry
+Andjean-Jacques Orban De Xivry
 
 - Also a Neuroscientist studying movement control
 - He is a professor in the Movement Control & Neuroplasticity research group of KU Leuven 
@@ -59,10 +59,8 @@ Solutions for researchers:
 
 ##  Interpreting comparisons between two effects without directly comparing them
 
-The problem
-
 - Researchers tend to determine the effect of some treatment/intervention by comparing the results 
-of the experimental group to the control group to see if there was a significant difference
+of the experimental group to the control group
 - The problem is when researchers conclude results based on the fact that the experimental group has 
 significant results while the control group does not
 - The two groups need to be directly compared to each other in one statistical test
@@ -94,7 +92,7 @@ observe falsely significant results
 
 Reviewers should look out for: 
 
-- Experimental units that do not match the number of participants in the study
+- Verify that degrees of freedom reflect the number of independent subjects, not measurements.
 
 Solutions For Researchers:
 
@@ -143,13 +141,12 @@ mistaken belief that a large effect in a small sample is definitely real.
 Reviewers should look out for:
 
 - Strong claims made using a small sample size
-- It is the reviewers discretion on whether or no the sample size is too small
+- It is the reviewers discretion on whether or not the sample size is too small
 
 Solutions For Researchers:
 
 - Provide evidence that the sample size is reasonable through performing a statistical power analysis or through replicating the study
-- If the sample size is limited, use Crawford t-test or try to add in controls to isolate the effect of the 
-primary factor being studied
+- If the sample size is limited, use Crawford t-test or try to isolate the effect of the primary factor being studied
 
 
 ## Circular analysis
@@ -157,7 +154,8 @@ primary factor being studied
 - Circular analysis happens when you use the same data to define or select something and then test or measure that same thing. 
 This creates a "circle" because you're using the data both to set up the analysis and to draw conclusions, which leads to biased 
 or misleading results.
-- A hypothesis is tested on the same data set that led to the generation of the hypothesis in the first place
+- A hypothesis is tested on the same data set that led to the generation of the hypothesis in the first place. This creates a 
+feedback loop where hypotheses seem supported simply because they were derived from the same data.
 
 ## Circular analysis
 
@@ -185,7 +183,7 @@ The Problem
 Reviewers should look out for:
 
 - If a large bulk of variables were taken but only a few statistically significant ones were reported
-- If the analysis plan is predetermined before testing and if that plan was followed
+- If the analysis plan is predetermined before testing and if that plan was not followed
 
 Solutions For researchers:
 
@@ -200,12 +198,13 @@ The Problem
 
 - When testing a set of hypotheses, as the number of hypotheses tested increases, so do the chances of seeing a false positive.
 - The more variables tested, the greater the chances of seeing a significant correlation with the dependent variable simply by chance
+- Without adjusting for multiple comparisons, researchers risk publishing findings that reflect statistical noise rather than real effects.
 
 ## Multiple comparisons
 
 Reviewers should look out for:
 
-- If many variables that are included do not correlate with the dependent variable, there is likely a multiple comparisons issue.
+- Many variables that are included do not correlate with the dependent variable.
 - Researchers should not interpret results from exploratory analyses without applying corrections for multiple comparisons.
 
 Solutions For researchers:
@@ -240,6 +239,7 @@ but to what extent there is an effect.
 
 The Problem
 
+- Researchers often want to examine the relationship between two variables using correlation
 - When the correlation is calculated between variables, some may assume this means that one directly causes the other
 - Correlation does mean not causation. There may be other variables at play or it may just be a coincidence
 
