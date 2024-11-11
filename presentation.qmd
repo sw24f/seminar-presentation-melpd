@@ -17,7 +17,7 @@ Tamar R Makin
 - Neuroscientist studying brain plasticity (how the brain reorganizes itself)
 - She is currently a professor at the University of Cambridge teaching cognitive neuroscience 
 
-Andjean-Jacques Orban De Xivry
+Jean-Jacques Orban De Xivry
 
 - Also a Neuroscientist studying movement control
 - He is a professor in the Movement Control & Neuroplasticity research group of KU Leuven 
@@ -205,7 +205,7 @@ The Problem
 Reviewers should look out for:
 
 - Many variables that are included do not correlate with the dependent variable.
-- Researchers should not interpret results from exploratory analyses without applying corrections for multiple comparisons.
+- Interpretation of results from exploratory analyses without applying corrections for multiple comparisons.
 
 Solutions For researchers:
 
